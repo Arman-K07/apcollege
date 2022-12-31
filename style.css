@@ -15,6 +15,7 @@ header {
     flex-direction: row;
     padding: 1% 2%;
     justify-content: space-around;
+    align-items: center;
 }
 
 #contact {
@@ -28,6 +29,7 @@ header {
 .t-rht {
     text-align: right;
     font-size: large;
+    padding-top: 1%;
 }
 
 
@@ -163,7 +165,8 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
   transition: 0.3s;
   width: 40vw;
-  height: 45vh;
+  /* height: 45vh; */
+  max-height: max-content;
   display: flex;
   flex-direction: row;
   margin: 2%;
