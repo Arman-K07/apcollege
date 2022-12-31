@@ -285,4 +285,16 @@ section h4 {
   color: lightblue;
  }
 
+@media screen and (max-width:769px) {
+  .card {
+    width: 45vw;
+    font-size: 12px;
+  }
 
+  .dropbtn {
+    padding: 8px 6px;
+    font-weight: 400;
+
+  }
+
+}
