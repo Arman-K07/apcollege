@@ -94,9 +94,6 @@ nav {
     background-color: royalblue;
   }
 
-  /* #slider {
-    z-index: -1;
-  } */
 #marq1 {
   padding: 0.5% 2%;
   color: red;
@@ -297,4 +294,62 @@ section h4 {
 
   }
 
+}
+
+@media screen and (max-width:426px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  section {
+    padding: 3% 0 3% 0;
+    border-bottom: 2px solid white;
+  }
+  section ul li {
+    list-style: none;
+  }
+
+  #dba {
+    display: none;
+  }
+  #foot  {
+    align-items: center;
+  }
+  #location {
+    flex-direction: column;
+}
+#after img, h3 {
+  width: 90vw;
+}
+#map h3 {
+  width: 90vw;
+  margin-top: 5%;
+}
+#map iframe {
+  width: 90vw;
+}
+.row {
+  flex-direction: column;
+}
+.card {
+  width: 90vw;
+  margin: 2% auto;
+}
+#imp-card {
+  flex-direction: column;
+}
+#imp-card a button {
+  font-size: x-small;
+  padding: 3%;
+}
+#slider img {
+  height: 45vh;
+}
+#name  {
+  display: none;
+}
+#contact {
+  font-size: xx-small;
+  font-weight: 300;
+}
 }
