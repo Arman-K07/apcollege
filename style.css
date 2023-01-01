@@ -352,4 +352,11 @@ section h4 {
   font-size: xx-small;
   font-weight: 300;
 }
+#logo img {
+  width: 25vw;
+}
+header {
+  padding: 1%;
+  justify-content: space-between;
+}
 }
